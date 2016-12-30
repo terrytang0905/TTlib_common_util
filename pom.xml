@@ -8,6 +8,7 @@
 	<name>common-util</name>
 
 	<properties>
+		<project.spring.version>4.1.6.RELEASE</project.spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -33,13 +34,6 @@
 			<version>0.32</version>
 		</dependency>
 
-		<!-- spring -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>3.2.2.RELEASE</version>
-		</dependency>
-
 		<!-- commons -->
 		<dependency>
 			<groupId>commons-collections</groupId>
@@ -60,6 +54,13 @@
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<version>4.3.1</version>
+		</dependency>
+
+		<!-- spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${project.spring.version}</version>
 		</dependency>
 
 		<dependency>
