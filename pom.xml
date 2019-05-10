@@ -8,7 +8,7 @@
 	<name>common-util</name>
 
 	<properties>
-		<project.spring.version>4.1.6.RELEASE</project.spring.version>
+		<project.spring.version>4.3.17.RELEASE</project.spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
